@@ -1,0 +1,70 @@
+*.exe
+*.app
+cipher_app
+
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Объектные файлы
+*.o
+*.obj
+
+# Файлы зависимостей
+*.d
+
+# Артефакты сборки
+*.a
+*.lib
+*.so
+*.dylib
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы редакторов
+*.sublime-*
+
+# Резервные копии
+*.bak
+*.backup
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+temp/
+
+# Документация
+docs/html/
+docs/latex/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Автосгенерированные файлы
+build/
+dist/
+
+# Отчеты покрытия кода
+*.gcda
+*.gcno
+*.gcov
+
+# Профилировочные данные
+gmon.out
+
+# Файлы пакетов
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Локальные настройки
+local_settings.ini
+.env
